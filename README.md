@@ -216,7 +216,7 @@ SDD is not limited to new projects or a single team. The spec becomes a portable
 
 > Audience: practitioners · Evidence class: mixed
 
-*Last reviewed: April 2026.*
+*Last reviewed: September 2026 (Hyperconsciousness entry); other entries: April 2026.*
 
 Memory is a first-class concern in agentic systems. Rather than treating memory as a simple array of previous messages, production systems require structured approaches to state, persistence, retrieval, and **experience reuse**. Four categories — working, episodic, procedural, semantic — remain the core architectural choices, but recent frontier research also shows memory is increasingly being used to **improve future agent behaviour**, not merely to store past context.
 
@@ -273,6 +273,7 @@ Specialised infrastructure for managing agent memory.
 | **Mem0** | Personalized memory layer | Managed memory API focusing on user contexts, interactions, and entity relationships. |
 | **Zep / Graphiti** | Enterprise memory & graphs | Fast, long-term memory for AI assistants; uses temporal knowledge graphs to map entity relationships over time. |
 | **MCP** (Model Context Protocol) | Interoperability fabric | While not a DB itself, MCP provides a standard protocol to expose memory stores and file systems universally across tools and agents. |
+| **[Hyperconsciousness](https://github.com/louis030195/hyperconsciousness)** | Encrypted knowledge store | `[official]` Developer-alpha Rust store for append-only records, device sync and scoped, expiring MCP grants. Source installation; APIs may change. [Security limits](https://github.com/louis030195/hyperconsciousness/blob/main/docs/CONSTRAINTS.md). |
 
 > **Design implication:** the key question is no longer only *what* the agent remembers, but *how memory changes future behaviour*. Systems like Synapse, Agent Workflow Memory, and ReasoningBank signal a shift — memory is becoming part of the agent's learning loop, enabling reusable routines and self-improvement over time.
 
