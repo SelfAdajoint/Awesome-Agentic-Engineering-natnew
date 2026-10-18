@@ -9,6 +9,7 @@ The RSS feed at [`feed.xml`](docs/feed.xml) is generated from this file.
 
 ## [Unreleased]
 
+- **Added** Hyperconsciousness to Memory Systems as a developer-alpha encrypted knowledge store with scoped, expiring MCP grants.
 - **Added** Hermeneutic to Memory Systems for correction-derived episodic memory, with bounded retrieval evidence and explicit effectiveness limits.
 - **Added** YYLO Benchmark to the Evaluation & Safety benchmarks for longitudinal evaluation of agent runs with fresh-repository attempt isolation and hash-linked receipts as immutable evidence.
 - **Added** Repo0 to the Spec-Driven Development resources as a paper on design-driven repository generation via a Dual-DAG of requirements and components.
