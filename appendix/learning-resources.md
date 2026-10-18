@@ -22,6 +22,8 @@
 - [HuggingGPT](https://arxiv.org/abs/2303.17580) - LLM task planning + specialist models
 - [MRKL Systems](https://arxiv.org/abs/2205.00445) - Neuro-symbolic agent architecture
 - [Proxifield: Decentralized Multi-Agent Communication through Semantic Proximity](https://arxiv.org/abs/2609.20889) - Research protocol for sparse semantic routing between agents, evaluated on simulated drone search-and-rescue and HiddenBench; scaling and agent-failure tests are limited to the drone environment. `[benchmark]`.
+- [On Evaluating and Improving Conversational Agents in Production](https://arxiv.org/abs/2609.32092) - Industry field report on offline evaluation of a production multi-agent shopping assistant using targeted assertions over a fixed scenario cohort, grounded user simulation instead of log replay, and paired percentile-bootstrap comparison of isolated changes against repeated baseline runs; no code or data released, single organisation. `[field report]`.
+- [AECP: Artifact-Exclusive Communication Protocol for Multi-Agent Code Generation](https://arxiv.org/abs/2610.06481) - Research protocol in which coding agents communicate only through structured artifacts and the harness checks implementations against recorded interface commitments, evaluated on Doc2Repo, NL2Repo, and CodeProjectEval. `[benchmark]`.
 
 ### Books
 

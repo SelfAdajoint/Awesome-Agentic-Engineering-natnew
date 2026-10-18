@@ -9,6 +9,10 @@ The RSS feed at [`feed.xml`](docs/feed.xml) is generated from this file.
 
 ## [Unreleased]
 
+
+- **Added** NVIDIA OpenShell to the Agent Authority, Identity & Delegation resources for out-of-process policy enforcement in agent sandboxes.
+- **Added** AgentWorld to the Evaluation & Safety benchmarks for long-horizon multi-agent collaboration with a causal contribution metric.
+- **Added** "On Evaluating and Improving Conversational Agents in Production" and AECP to the Learning Resources key papers, covering statistically grounded offline evaluation and artifact-only multi-agent communication.
 - **Added** Hyperconsciousness to Memory Systems as a developer-alpha encrypted knowledge store with scoped, expiring MCP grants.
 - **Added** Hermeneutic to Memory Systems for correction-derived episodic memory, with bounded retrieval evidence and explicit effectiveness limits.
 - **Added** YYLO Benchmark to the Evaluation & Safety benchmarks for longitudinal evaluation of agent runs with fresh-repository attempt isolation and hash-linked receipts as immutable evidence.
