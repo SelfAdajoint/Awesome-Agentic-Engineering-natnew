@@ -409,7 +409,7 @@ Protocols are the stable contracts between agents, tools, and hosts. Each entry 
 
 > Audience: practitioners, AI security, enterprise architects · Evidence class: mixed
 
-*Last reviewed: April 2026.*
+*Last reviewed: October 2026.*
 
 Protocols like MCP, A2A, and function calling explain **how** agents connect to tools and systems. This section covers **who or what is authorised** to use those connections, and how that authority is governed in production — what the industry has begun to call the **AI Agent Authority Gap**.
 
@@ -461,6 +461,7 @@ The practical consequence is **sequencing**: an enterprise cannot safely govern 
 | [OWASP GenAI Security Project](https://genai.owasp.org/) | GenAI and agent security controls | Useful governance and threat-modelling reference for agentic systems, including excessive agency and tool-use risks. |
 | [Model Context Protocol](https://modelcontextprotocol.io/) | Tool and context protocol | Tool access expands the authority surface of agentic systems; MCP is a primary vector for that expansion and where scoping must be applied. |
 | [Auth0 AI Agents / Token Vault](https://auth0.com/ai) | Scoped delegated access for AI agents | Practical identity pattern for managing agent access to user-authorised systems with short-lived, scoped tokens. |
+| [NVIDIA OpenShell](https://github.com/NVIDIA/OpenShell) | Out-of-process runtime policy enforcement for agent sandboxes | Enforces declarative YAML policy outside the agent process, with Landlock filesystem confinement fixed at sandbox creation, network egress policy that can be updated on a running sandbox, and process restrictions; pre-1.0, see the [docs](https://docs.nvidia.com/openshell/latest/about/why-open-shell). |
 
 ---
 
@@ -490,7 +491,7 @@ Models that do **explicit reasoning or planning at inference time** — chain-of
 
 > Audience: researchers · Evidence class: benchmark
 
-*Last reviewed: September 2026 (link maintenance).*
+*Last reviewed: October 2026.*
 
 This section covers frameworks and operational tooling for testing agent quality, correctness, task completion, regressions, and system behaviour, as well as security scanning, red teaming, policy testing, and misalignment research. Evidence tags follow the [Benchmark and Evidence Policy](#benchmark-and-evidence-policy).
 
@@ -554,6 +555,7 @@ This section covers frameworks and operational tooling for testing agent quality
 | [ClawBench](https://github.com/TIGER-AI-Lab/ClawBench) | Browser-agent benchmark on live production websites with isolated runs, final-request interception, and five-layer execution evidence. | `[official]` · `[benchmark]` [paper](https://arxiv.org/abs/2604.08523) |
 | [DataPrep-Bench](https://datapreparationbench.github.io/) | Evaluates LLMs and agents on automated training-data preparation workflows, adding a data-centric workload for comparing multi-stage preparation capabilities beyond conventional task-execution benchmarks. | `[official]` · `[benchmark]` [paper](https://arxiv.org/abs/2607.20465) |
 | [YYLO Benchmark](https://github.com/yylo-dev/yylo-benchmark) | Longitudinal evaluation and immutable evidence for agent runs: private fresh-repository attempt workspaces, deterministic and LLM-judge evaluation profiles, and hash-linked receipts, manifests, and evaluator provenance. | `[official]` · `[benchmark]` |
+| [AgentWorld](https://github.com/openagents-org/agentworld) | Long-horizon multi-agent collaboration benchmark in an MMORPG sandbox: 100 human-annotated tasks plus augmented variants for 3–20 role-differentiated agents, Python success verifiers, and a causal-graph metric (CCE) measuring the share of actions that contributed to task success. | `[official]` · `[benchmark]` [paper](https://arxiv.org/abs/2609.31590) |
 
 ### Safety Risk Surfaces & Mitigations
 
